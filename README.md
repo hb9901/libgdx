@@ -30,8 +30,8 @@ also bundled as source Jars with every libGDX distribution for consumption in yo
 libGDX의 최신소식은 [블로그](http://www.badlogicgames.com)에서 얻을 수 있습니다. 
 [@badlogicgames](https://twitter.com/badlogicgames) 를 Follow 해주세요.
 
-또한 저희 IRC채널인 irc.freenode.net에서 [forum](http://badlogicgames.com/forum/)에 
-도움을 주거나 다른 libGDX 사용자와 얘기할 수 있습니다.
+저희 IRC채널인 irc.freenode.net에서 [forum](http://badlogicgames.com/forum/)에 
+도움을 주거나 다른 libGDX 사용자와 얘기할 수도 있습니다.
 
 마지막으로 [libgdx discord](https://discord.gg/6pgDK9F)에서 도움을 받거나 다른 사용자와 얘기할 수 있습니다.
 
