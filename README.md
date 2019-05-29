@@ -18,7 +18,8 @@ libGDX는 Windows, Linux, Mac OS X, Android, WebGL 그리고 iOS에서 사용 �
   * [Wiki 문서를 읽으세요](https://github.com/libgdx/libgdx/wiki)
 
 ### 다운로드
- Gradle로 변경되면서 더 이상 libGDX를 다운받을 필요가 없어졌습니다. 하지만 여전히 libGDX를 [공식 사이트 (http://libgdx.badlogicgames.com/download.html)에서 다운로드 받을 수는 있습니다.
+ Gradle로 변경되면서 더 이상 libGDX를 다운받을 필요가 없어졌습니다. 하지만 여전히 libGDX를 
+ [공식 사이트(http://libgdx.badlogicgames.com/download.html)]에서 다운로드 받을 수는 있습니다.
 
 ### 문서
 [Wiki](https://github.com/libgdx/libgdx/wiki)에 libGDX 게임을 작성하기 위한 모든 내용이 포함되어 있으며 
