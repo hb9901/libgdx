@@ -36,29 +36,24 @@ libGDX의 최신소식은 [블로그](http://www.badlogicgames.com)에서 얻을
 
 마지막으로 [libgdx discord](https://discord.gg/6pgDK9F)에서 도움을 받거나 다른 사용자와 얘기할 수 있습니다.
 
-### Reporting Issues
-Use the [issue tracker](https://github.com/libgdx/libgdx/issues?page=1&state=open) here on GitHub to report issues. Make sure you read the 
-[Getting Help](https://github.com/libgdx/libgdx/wiki/Getting-help) article that walks you through
-the process or properly reporting an issue.
+### 이슈 발행
+여기 GitHub의 [issue tracker](https://github.com/libgdx/libgdx/issues?page=1&state=open) 를 사용하여 이슈를 발행할 수 있습니다.
+[Getting Help](https://github.com/libgdx/libgdx/wiki/Getting-help) 글을 읽고 순차적으로 따라해보세요.
 
-### Contributing & Working from Source
-libGDX has a strong developer community constantly improving the code base. We love to
-get any and all help we can. The [Contributing](https://github.com/libgdx/libgdx/wiki/Contributing) 
-article describes the process of helping libGDX to become even better.
+### 기여 & 소스코드 작성
+ libGDX는 코드 베이스를 향상시키고 있는 개발자 커뮤니티가 있으며 모든 도움은 감사하게 받고 있습니다. 도움을 주는 방법에 대해서는
+ [Contributing](https://github.com/libgdx/libgdx/wiki/Contributing)에 자세하게 올라와 있습니다.
 
-To contribute, you need to work with libGDX' sources directly, something normal users do not
-have to go through. The [Working with the Source](https://github.com/libgdx/libgdx/wiki/Running-demos-%26-tests)
-article will give you directions.
+기여하기 위해서는 libGDX 소스코드에 대해 직접적으로 작업해야 할 것입니다. 이에 대해서는 [Working with the Source](https://github.com/libgdx/libgdx/wiki/Running-demos-%26-tests) 글에서 방법을 제시해 줄 것입니다.
 
-You can also contribute financially to our infrastructure (build server, web server, test devices) via our [Patreon](http://patreon.com/libgdx)!
+ 또한 [Patreon](http://patreon.com/libgdx)을 통하여 다양한 기반 시설(build 서버, web 서버, 시험 장치등)에 재정적으로 기여할 수 있습니다! 
 
-### License
-libGDX is licensed under the [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0.html), meaning you
-can use it free of charge, without strings attached in commercial and non-commercial projects. We love to
-get (non-mandatory) credit in case you release a game or app using libgdx!
+### 라이선스
+libGDX는 [Apache 2 License](http://www.apache.org/licenses/LICENSE-2.0.html)하에 제작되어있으며 
+상업적, 비상업적 프로젝트에 모두 무료로 이용가능합니다. 그러니 libgdx로 만든 게임이나 앱은 믿고 공개하셔도 됩니다.
 
-### Supported By
-libGDX is supported by helpful 3rd parties via code contributions, free licenses, test devices and so forth. Make our supporters happy and visit their sites!
+### 지원
+ ibGDX는 코드 기여를 통한 써드 파티(소프트웨어 개발자)들과 무료 라이선스, 시험 장치들을 통한 지원을 받고 있습니다. 지원을 해주는 다양한 사이트들도 방문해주시면 감사하겠습니다.
 
 <table>
 <tr>
