@@ -1,15 +1,12 @@
-# Contributing to libGDX
+# libGDX에 기여하기
 
-Please take a moment to review this document in order to make the contribution
-process easy and effective for everyone involved.
+쉽고 효과적인 기여를 위해서 이 문서를 읽어주세요.
 
-Following these guidelines helps to communicate that you respect the time of
-the developers managing and developing this open source project. In return,
-they should reciprocate that respect in addressing your issue or assessing
-patches and features.
+이 가이드라인은 오픈 소스 프로젝트에 기여한 개발자들을 존중하는데 도움을 주고, 또한
+개발자들이 당신이 발행한 이슈를 다루고, 당신의 패치를 평가하게끔 도와줄 것 입니다.
 
 
-## Using the issue tracker
+## 이슈 트래커  이용하기
 
 The issue tracker is the preferred channel for [bug reports](#bugs),
 [feature requests](#features) and [submitting pull
