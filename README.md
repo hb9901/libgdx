@@ -20,10 +20,9 @@ libGDX는 Windows, Linux, Mac OS X, Android, WebGL 그리고 iOS에서 사용 �
 ### 다운로드
   Gradle로 변경되면서 더 이상 libGDX를 다운받을 필요가 없어졌습니다. 하지만 여전히 libGDX를 [공식 사이트](http://libgdx.badlogicgames.com/download.html)에서 다운로드 받을 수는 있습니다.
 
-### Documentation
-The [Wiki](https://github.com/libgdx/libgdx/wiki) contains all the information you'll need to write a 
-libGDX game. You can contribute to the Wiki directly here on GitHub!
-
+### 문서
+[Wiki](https://github.com/libgdx/libgdx/wiki)에 libGDX 게임을 작성하기 위한 모든 내용이 포함되어 있으며 
+언제든지 GitHub에서 Wiki에 기여할 수 있습니다.
 We also provide [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/) online. The Javadocs are
 also bundled as source Jars with every libGDX distribution for consumption in your favorite IDE.
 
