@@ -4,22 +4,21 @@
 
 [![Travis build status](https://travis-ci.org/libgdx/libgdx.svg?branch=master)](https://travis-ci.org/libgdx/libgdx) (Travis)
 
-libGDX is a cross-platform Java game development framework based on 
-OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your
-WebGL enabled browser and iOS.
+libGDX는 Windows, Linux, Mac OS X, Android, WebGL 그리고 iOS에서 사용 가능한 크로스 플랫폼
+자바 게임 개발 도구이며 OpenGL에 기반하고 있습니다.
 
 ### 시작하는 방법
-  * [Setup your development environment (Eclipse, Intellij IDEA, NetBeans)](https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29)
-  * [Create a libGDX project](https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle)
+  * [개발 환경을 설정하세요(Eclipse, Intellij IDEA, NetBeans)](https://github.com/libgdx/libgdx/wiki/Setting-up-your-Development-Environment-%28Eclipse%2C-Intellij-IDEA%2C-NetBeans%29)
+  * [libGDX 프로젝트를 생성하세요](https://github.com/libgdx/libgdx/wiki/Project-Setup-Gradle)
     * Import, Run, Debug and Package your project
       * [Eclipse](https://github.com/libgdx/libgdx/wiki/Gradle-and-Eclipse)
       * [Intellij IDEA](https://github.com/libgdx/libgdx/wiki/Gradle-and-Intellij-IDEA)
       * [NetBeans](https://github.com/libgdx/libgdx/wiki/Gradle-and-NetBeans)
       * [Commandline](https://github.com/libgdx/libgdx/wiki/Gradle-on-the-Commandline)
-  * [Read the Wiki](https://github.com/libgdx/libgdx/wiki)
+  * [Wiki 문서를 읽으세요](https://github.com/libgdx/libgdx/wiki)
 
-### Downloads
-As we switched to Gradle, there's no need to download libGDX itself anymore. For those of you who still prefer the old way of doing things, you can get libGDX from the [official download site](http://libgdx.badlogicgames.com/download.html).
+### 다운로드
+  Gradle로 변경되면서 더 이상 libGDX를 다운받을 필요가 없어졌습니다. 하지만 여전히 libGDX를 [공식 사이트](http://libgdx.badlogicgames.com/download.html)에서 다운로드 받을 수는 있습니다.
 
 ### Documentation
 The [Wiki](https://github.com/libgdx/libgdx/wiki) contains all the information you'll need to write a 
