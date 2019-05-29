@@ -18,7 +18,7 @@ libGDX는 Windows, Linux, Mac OS X, Android, WebGL 그리고 iOS에서 사용 �
   * [Wiki 문서를 읽으세요](https://github.com/libgdx/libgdx/wiki)
 
 ### 다운로드
-  Gradle로 변경되면서 더 이상 libGDX를 다운받을 필요가 없어졌습니다. 하지만 여전히 libGDX를 [공식 사이트](http://libgdx.badlogicgames.com/download.html)에서 다운로드 받을 수는 있습니다.
+ Gradle로 변경되면서 더 이상 libGDX를 다운받을 필요가 없어졌습니다. 하지만 여전히 libGDX를 [공식 사이트 (http://libgdx.badlogicgames.com/download.html)에서 다운로드 받을 수는 있습니다.
 
 ### 문서
 [Wiki](https://github.com/libgdx/libgdx/wiki)에 libGDX 게임을 작성하기 위한 모든 내용이 포함되어 있으며 
@@ -26,14 +26,14 @@ libGDX는 Windows, Linux, Mac OS X, Android, WebGL 그리고 iOS에서 사용 �
 We also provide [Javadocs](http://libgdx.badlogicgames.com/nightlies/docs/api/) online. The Javadocs are
 also bundled as source Jars with every libGDX distribution for consumption in your favorite IDE.
 
-### News & Community
-You can follow the latest news about libGDX on the [blog](http://www.badlogicgames.com). Follow
-[@badlogicgames](https://twitter.com/badlogicgames) for real-time updates.
+### 뉴스 & 커뮤니티
+libGDX의 최신소식은 [블로그](http://www.badlogicgames.com)에서 얻을 수 있습니다. 
+[@badlogicgames](https://twitter.com/badlogicgames) 를 Follow 해주세요.
 
-You can get help on our [forum](http://badlogicgames.com/forum/) and talk to other libGDX 
-users on our IRC channel #libgdx at irc.freenode.net.
+또한 저희 IRC채널인 irc.freenode.net에서 [forum](http://badlogicgames.com/forum/)에 
+도움을 주거나 다른 libGDX 사용자와 얘기할 수 있습니다.
 
-Another way of getting help or talking to other libGDX users is the [libgdx discord](https://discord.gg/6pgDK9F).
+마지막으로 [libgdx discord](https://discord.gg/6pgDK9F)에서 도움을 받거나 다른 사용자와 얘기할 수 있습니다.
 
 ### Reporting Issues
 Use the [issue tracker](https://github.com/libgdx/libgdx/issues?page=1&state=open) here on GitHub to report issues. Make sure you read the 
