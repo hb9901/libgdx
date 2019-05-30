@@ -33,8 +33,8 @@
 2. **issue가 수정되어졌는지 확인하세요** &mdash; 가장 최근에 만든 master 
    브랜치나 개발 브랜치를 이용해서 issue를 재생성해보세요
    
-3. **문제를 분리하세요** &mdash; [reduced test case]
-(https://github.com/libgdx/libgdx/wiki/Getting-Help#executable-example-code)를 생성해주세요.
+3. **문제를 분리하세요** &mdash; [reduced test case](https://github.com/libgdx/libgdx/wiki/Getting-Help#executable-example-code)
+를 생성해주세요.
 
 좋은 버그 신고는 더 이상의 정보없이 다른 사람이 이해할 수 있어야 합니다. 당신의 환경이 어떠한가요?
 어떤 단계가 issue를 재생성할까요? 어떤 브라우저와 OS가 문제를 겪었나요? 당신은 어떤 결과를 원하나요?
@@ -70,57 +70,64 @@ libGDX에 기여하는 방법은 쉽습니다.:
 만약 당신이 다른 개발자들과 머리를 맞대거나 pull request를 하고 싶다면 GitHub에서 토론을 시작하거나 새로운 스레드를 [이 sub-forum](http://www.badlogicgames.com/forum/viewforum.php?f=23)에서 진행하세요. 회원 가입을 위해선 badlogicgames dot com에 email을 쓰고 
 당신의 포럼 아이디를 확인 받아야합니다. 또한 페이지 아래에 있는 버튼을 통해 포럼을 정기 구독해야 합니다. 혹은 핵심 개발자들이 있는IRC(irc.freenode.org, #libgdx)에 방문하셔도 됩니다.
 
-### Contributor License Agreement
+### 라이선스 동의
 
 Libgdx는 [Apache 2.0 license](http://en.wikipedia.org/wiki/Apache_License)하에 있습니다. 이 프로젝트에 공헌하기 위해서는  [contributor license agreement](https://github.com/libgdx/libgdx/blob/master/CLA.txt)에 대해 동의해야 합니다. 이를 프린트에서 빈 칸을 채우고 [`contact@badlogicgames.com`](mailto:contact@badlogicgames.com?subject=[LibGDX]%20CLA) `[Libgdx] CLA`와 함께 보내세요.
 
+CLA에 동의하는 것은 저희가 당신의 코드에 기여할 수 있게 합니다. 이것은 독점적인 라이선스가 아니므로 당신은 당신의 코드에 대한
+권리를 가지고 있습니다만 만약 중요한 코드를 작성하고 나중에 다시 가져가기로 결심했을 때에 대한 대비책이 될 것입니다.
 
 ### Eclipse Formatter
 
-If you work on libGDX code, we require you to use the [Eclipse formatter](https://github.com/libgdx/libgdx/blob/master/eclipse-formatter.xml) located in the root directory of the repository.
+libGDX 코드로 작업하는 경우 저장소의 루트 디렉토리에 있는 [Eclipse formatter](https://github.com/libgdx/libgdx/blob/master/eclipse-formatter.xml)를 사용해야 합니다.
 
-Failure to use the formatter will result in Nate being very upset.
+IntelliJ IDEA를 사용한다면 eclipse code formatter를 사용할 수 있습니다. 자세한 내용은 [이 글](http://blog.jetbrains.com/idea/2014/01/intellij-idea-13-importing-code-formatter-settings-from-eclipse/?utm_source=hootsuite&utm_campaign=hootsuite)을 참고하세요.
 
-If you are using IntelliJ IDEA, you can still make use of the eclipse code formatter. See [this article](http://blog.jetbrains.com/idea/2014/01/intellij-idea-13-importing-code-formatter-settings-from-eclipse/?utm_source=hootsuite&utm_campaign=hootsuite) for more information.
+### 코드 스타일
 
-### Code Style
+LibGDX에는 공식 코딩 스타일이 없습니다. 이 프로젝트의 대부분은 [자바 스타일](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html)
+을 따르고 있습니다.
 
-LibGDX does not have an official coding standard. We mostly follow the usual [Java style](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html), and so should you.
+이 프로젝트에서 하지 말아야 할 것들:
 
-A few things we'd rather not like to see:
+  * 식별자에 밑줄을 긋는 것
+  * [헝가리 표기법](http://en.wikipedia.org/wiki/Hungarian_notation)
+  * 필드 또는 인수의 접두사
+  * 새로운 라인의 커클
+  * 블록이 둘 이상의 라인에 걸쳐있을 때 중괄호가 없는 조건부 블록 본문
 
-  * underscores in any kind of identifier
-  * [Hungarian notation](http://en.wikipedia.org/wiki/Hungarian_notation)
-  * Prefixes for fields or arguments
-  * Curlies on new lines
-  * Conditional block bodies without curlies when the block spans more than one line
+만약 기존에 존재하는 파일을 수정하는 경우 코드 스타일을 유지해 주세요
 
-If you modify an existing file, follow the style of the code in there.
+새 파일을 만드는 경우 [여기](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/Application.java)에 표시된대로 Apache
+파일 해더를 추가해야 합니다..
 
-If you create a new file, make sure to add the Apache file header, as seen [here](https://github.com/libgdx/libgdx/blob/master/gdx/src/com/badlogic/gdx/Application.java).
+새 클래스를 만드는 경우 클래스의 사용법과 범위를 설명하는 클래스를 문서에 추가해야 합니다. 클래스가 명백한 메서드는 Javadoc을 생략할 수 있습니다.
 
-If you create a new class, please add at least class documentation that explains the usage and scope of he class. You can omit Javadoc for methods that are self-explanatory.
+클래스가 스레드에 안전하면 Javadoc에 올리세요. 코드 베이스를 lock 걸기 위한 비용을 줄이기 위해 클래스는 스레드로부터 안전하지 않다는 것이 기본 사항입니다.
 
-If your class is explicitly thread-safe, mention it in the Javadoc. The default assumption is that classes are not thread-safe, to reduce the amount of costly locks in the code base.
+### 성능 고려 사항
 
-### Performance Considerations
+LibGDX는 브라우저 (JavaScript!)를 포함하여 데스크톱 및 모바일 플랫폼에서 실행됩니다. 데스크톱 핫스팟 VM은 불필요한 할당 측면에서 상당히 
+비싸지만 Dalvik과 협력업체는 그렇지 않습니다.
 
-LibGDX is meant to run on both desktop and mobile platforms, including browsers (JavaScript!). While the desktop HotSpot VM can take quite a beating in terms of unnecessary allocations, Dalvik and consorts don't.
+가이드라인:
 
-A couple of guidelines:
-
-  * Avoid temporary object allocation wherever possible
-  * Do not make defensive copies
-  * Avoid locking. libGDX classes are, by default, not thread-safe unless explicitly specified
-  * Do not use boxed primitives
-  * Use the collection classes in the [`com.badlogic.gdx.utils` package](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/utils)
-  * Do not perform argument checks for methods that may be called thousands of times per frame
-  * Use pooling if necessary, if possible, avoid exposing the pooling to the user as it complicates the API
+  * 임시 객체 할당을 피하세요.
+  * 방어적 사본을 만들지 마세요.
+  * 잠그지 마세요. libGDX 클래스는 기본적으로 지정하지 않는 한 스레드로부터 안전하지 않습니다.
+  * 박스형 프리미티브를 사용하지 마세요.
+  * [`com.badlogic.gdx.utils` package](https://github.com/libgdx/libgdx/tree/master/gdx/src/com/badlogic/gdx/utils)
+    의 컬렉션 클래스를 사용하세요
+  * 프레임 당 수천 번 호출 될 수 있는 메소드에 대한 인수 검사를 수행하지 마세요.
+  * 가능한 경우 풀링을 사용하세요, API를 복잡하게 만들 때 풀링이 사용자에게 노출되지 않도록 하세요.
 
 ### Git
 
-Most of the libGDX team members are Git novices. As such, we are just learning the ropes ourselves. To lower the risk of getting something wrong, we'd kindly ask you to keep your pull requests small if possible. A changeset of 3000 files is likely not to get merged.
+대부분의 libGDX의 팀 멤버는 Git 초심자들입니다. 그래서 저희는 저희 스스로의 고리를 배우는 중입니다. 따라서 잘못될 가능성을 줄이기 위해 최대한
+pull request를 적게 해주었으면 합니다. 3000파일의 변화는 병합되기가 힘듭니다ㅠㅠ.
 
-We do open new branches for bigger API changes. If you help out with a new API, make sure your pull request targets that specific branch.
+저희는 큰 API 변화를 위해서 새로운 브랜치를 엽니다. 만약 새로운 API에 도움을 준다면 그 브랜치에 맞게 pull request를 해주길 바랍니다.
 
-Pull requests for the master repository will be checked by multiple core contributors before inclusion. We may reject your pull request to `master` if we do not deem them to be ready or fitting. Please don't take offense in that case. LibGDX is used by thousands of projects around the world. We need to make sure things stay somewhat sane and stable.
+Master 저장소에 대한 Pull request는 포함되기 전에 핵심 기여자들에게 확인을 받습니다. 저희는 master에 대한 당신의 pull request가 적절하지 
+못하다면 이를 거절할 것 입니다. 제발 이 경우를 위반하지 말아주세요. LibGDX는 전 세계의 수천가지 프로젝트에 이용되고 있습니다. 이 프로젝트가
+안정화되게 도와주세요
