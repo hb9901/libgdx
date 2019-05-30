@@ -8,75 +8,72 @@
 
 ## 이슈 트래커  이용하기
 
-The issue tracker is the preferred channel for [bug reports](#bugs),
-[feature requests](#features) and [submitting pull
-requests](#pull-requests), but please respect the following restrictions:
+이슈 트래커는 [버그 리포트] (#bugs) , [기능 요청] (#features) , 그리고
+[제출 요청](#pull-requests), 에 사용되는 채널입니다. 
+하지만 다음의 제한 사항들을 준수해 주세요.
 
-* Please **do not** use the issue tracker for personal support requests (use
-  [the forum](http://badlogicgames.com/forum/) or IRC). See also [Getting Help](https://github.com/libgdx/libgdx/wiki/Getting-Help).
+* 개인적인 지원 요청을 위해 이슈트래커를 사용하지 말아주세요. ([the forum](http://badlogicgames.com/forum/) or IRC
+  를 이용해주세요.). [Getting Help] 역시 참고해주세요(https://github.com/libgdx/libgdx/wiki/Getting-Help).
+  
+* 이슈에 벗어난 주제는 삼가해주세요. 주제에 맞게 의견을 주고받고 다른 사람들의 주장을 존중해주세요.
 
-* Please **do not** derail or troll issues. Keep the discussion on topic and
-  respect the opinions of others.
 
 
 <a name="bugs"></a>
-## Bug reports
+## 버그 신고
 
-A bug is a _demonstrable problem_ that is caused by the code in the repository.
-Good bug reports are extremely helpful - thank you!
+버그는 저장소의 코드에 의해 발생되는 '증명 가능한' 문제입니다.
+좋은 버그 신고는 매우 도움이 됩니다 - 도움에 감사합니다!
 
-Guidelines for bug reports:
+버그 신고를 위한 가이드라인:
 
-1. **Use the GitHub issue search** &mdash; check if the issue has already been
-   reported. Make sure to search all issues, not only the open issues.
+1. **GitHub issue search를 사용하세요** &mdash; issue가 이미 발행되었는지 
+   확인하세요. open issue를 포함한 모든 issue들을 검색해보세요
+   
+2. **issue가 수정되어졌는지 확인하세요** &mdash; 가장 최근에 만든 master 
+   브랜치나 개발 브랜치를 이용해서 issue를 재생성해보세요
+   
+3. **문제를 분리하세요** &mdash; [reduced test case]
+(https://github.com/libgdx/libgdx/wiki/Getting-Help#executable-example-code)를 생성해주세요.
 
-2. **Check if the issue has been fixed** &mdash; try to reproduce it using the
-   latest `master` or development branch in the repository.
+좋은 버그 신고는 더 이상의 정보없이 다른 사람이 이해할 수 있어야 합니다. 당신의 환경이 어떠한가요?
+어떤 단계가 issue를 재생성할까요? 어떤 브라우저와 OS가 문제를 겪었나요? 당신은 어떤 결과를 원하나요?
+이러한 자세한 설명들은 다른 사람들이 잠재적 버그까지 수정하는데 도움을 줍니다.
+ 
+당신이 버그를 발견하였고 이를 스스로 고쳐보고 싶다면 수정사항에 대한 설명과 함께
+[pull request](#pull-requests)를 생성해보세요. pull request면 충분하니 버그 신고로 또다른 issue를 
+발행할 필요는 없습니다.
 
-3. **Isolate the problem** &mdash; create a [reduced test
-   case](https://github.com/libgdx/libgdx/wiki/Getting-Help#executable-example-code).
-
-A good bug report shouldn't leave others needing to chase you up for more
-information. Please try to be as detailed as possible in your report. What is
-your environment? What steps will reproduce the issue? What browser(s) and OS
-experience the problem? What would you expect to be the outcome? All these
-details will help people to fix any potential bugs.
-
-If you have found a bug and want to fix it yourself immediately, great!
-Create a [pull request](#pull-requests) with your proposed correction and
-a description of the problem you are fixing. Please do **not** create a separate
-issue for the bug report, the pull request is enough.
-
-See [Getting Help](https://github.com/libgdx/libgdx/wiki/Getting-Help) for more information and an example.
+[Getting Help](https://github.com/libgdx/libgdx/wiki/Getting-Help)에서 더 많은 설명과 예시를 참고하세요
 
 
 <a name="features"></a>
-## Feature requests
+## 기능 요청
 
-Feature requests are welcome. But take a moment to find out whether your idea
-fits with the scope and aims of the project. It's up to *you* to make a strong
-case to convince the project's developers of the merits of this feature. Please
-provide as much detail and context as possible.
+기능요청은 언제나 환영합니다. 하지만 기능요청에 앞서 잠시 그 기능이 이 프로젝트의 목표와 잘 맞는지 
+생각해주세요. 이 기능의 장점을 프로젝트 개발자들에게 설득시킬 수 있는 건 당신밖에 없음을 인식하고
+가능한 자세하게 정보를 제공해주세요.
 
 <a name="pull-requests"></a>
 ## Pull requests
 
-Contributing to libGDX is easy:
+libGDX에 기여하는 방법은 쉽습니다.:
 
-  * Fork libGDX on [`http://github.com/libgdx/libgdx`](http://github.com/libgdx/libgdx)
-  * Learn how to [Work with the Source](https://github.com/libgdx/libgdx/wiki/Running-demos-%26-tests)
-  * Hack away, and send a pull request on GitHub!
+  * libGDX [`http://github.com/libgdx/libgdx`](http://github.com/libgdx/libgdx)를 포크하세요
+  * [소스를 이용하는 법](https://github.com/libgdx/libgdx/wiki/Running-demos-%26-tests)을 배우세요
+  * GitHub에 Pull requests하세요!
 
-### API Changes & Additions
-If you modify a public API, or add a new one, make sure to add these changes to the [CHANGES](https://github.com/libgdx/libgdx/blob/master/CHANGES) file in the root of the repository. In addition to the CHANGES file, such modifications are also published on the [blog](http://www.badlogicgames.com) and on [Twitter](http://www.twitter.com/badlogicgames) to reach all of the community.
+### API 변경 & 추가사항
+만약 당신이 공용 API를 수정하거나 새로운 것을 추가할 때 저정소의 [CHANGES](https://github.com/libgdx/libgdx/blob/master/CHANGES)파일에
+이러한 변경사항들을 추가하세요. CHANGES 파일뿐만 아니라, 그런 변경사항들은 모든 커뮤니티에 전해지도록 [blog](http://www.badlogicgames.com)와 [Twitter](http://www.twitter.com/badlogicgames)에 전달해주세요.
 
-If you want to poll the brains of other devs, either send a pull request and start a conversation on Github, or start a new thread in [this sub-forum](http://www.badlogicgames.com/forum/viewforum.php?f=23). You will need special forum permissions, write an e-mail to contact at badlogicgames dot com and tell me your forum id. You should also subscribe to that forum via e-mail, there's a button at the bottom of the page. You can also drop by on IRC (irc.freenode.org, #libgdx), where most core devs are lurking.
+만약 당신이 다른 개발자들과 머리를 맞대거나 pull request를 하고 싶다면 GitHub에서 토론을 시작하거나 새로운 스레드를 [이 sub-forum](http://www.badlogicgames.com/forum/viewforum.php?f=23)에서 진행하세요. 회원 가입을 위해선 badlogicgames dot com에 email을 쓰고 
+당신의 포럼 아이디를 확인 받아야합니다. 또한 페이지 아래에 있는 버튼을 통해 포럼을 정기 구독해야 합니다. 혹은 핵심 개발자들이 있는IRC(irc.freenode.org, #libgdx)에 방문하셔도 됩니다.
 
 ### Contributor License Agreement
 
-Libgdx is licensed under the [Apache 2.0 license](http://en.wikipedia.org/wiki/Apache_License). Before we can accept code contributions, we need you to sign our [contributor license agreement](https://github.com/libgdx/libgdx/blob/master/CLA.txt). Just print it out, fill in the blanks and send a copy to [`contact@badlogicgames.com`](mailto:contact@badlogicgames.com?subject=[LibGDX]%20CLA), with the subject `[Libgdx] CLA`.
+Libgdx는 [Apache 2.0 license](http://en.wikipedia.org/wiki/Apache_License)하에 있습니다. 이 프로젝트에 공헌하기 위해서는  [contributor license agreement](https://github.com/libgdx/libgdx/blob/master/CLA.txt)에 대해 동의해야 합니다. 이를 프린트에서 빈 칸을 채우고 [`contact@badlogicgames.com`](mailto:contact@badlogicgames.com?subject=[LibGDX]%20CLA) `[Libgdx] CLA`와 함께 보내세요.
 
-Signing the CLA will allow us to use and distribute your code. This is a non-exclusive license, so you retain all rights to your code. It's a fail-safe for us should someone contribute essential code and later decide to take it back.
 
 ### Eclipse Formatter
 
